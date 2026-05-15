@@ -35,3 +35,9 @@ chroma_db/
 .chromadb/
 *.sqlite3
 *.faiss
+
+# PyInstaller packaging output
+packaging/build/
+packaging/dist/
+packaging/*.spec
+packaging/local_llm_chat.py
