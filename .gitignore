@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual envs
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Office lock files
+~$*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated / temp
+*.log
+*.tmp
+build/
+dist/
+*.egg-info/
+
+# Local model / vector store caches (RAG demo)
+chroma_db/
+.chromadb/
+*.sqlite3
+*.faiss
